@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="199765d3-22d9-46bf-babd-041a92a284a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/cristian/ejemplos/s3/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/cristian/ejemplos/s3/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/cristian/ejemplos/s3/Constantes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/cristian/ejemplos/s3/Constantes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dev/cristian/ejemplos/s3/S3Consumidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dev/cristian/ejemplos/s3/S3Consumidor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/cristian/ejemplos/s3/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/cristian/ejemplos/s3/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/cristian/ejemplos/s3/Constantes$Bucket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/cristian/ejemplos/s3/Constantes$Bucket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/cristian/ejemplos/s3/Constantes$Credenciales.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/cristian/ejemplos/s3/Constantes$Credenciales.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dev/cristian/ejemplos/s3/S3Consumidor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dev/cristian/ejemplos/s3/S3Consumidor.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +91,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

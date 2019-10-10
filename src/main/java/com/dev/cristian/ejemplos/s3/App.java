@@ -25,7 +25,7 @@ public class App {
         S3Consumidor s3Consumidor = new S3Consumidor();
 
         s3Consumidor.subirArchivo();
-        s3Consumidor.getArchivo();
+//        s3Consumidor.getArchivo();
 
     }
 }

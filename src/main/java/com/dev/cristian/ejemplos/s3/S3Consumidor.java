@@ -3,6 +3,7 @@ package com.dev.cristian.ejemplos.s3;
 import com.amazonaws.SdkClientException;
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;
+import com.amazonaws.client.builder.AwsClientBuilder;
 import com.amazonaws.regions.Regions;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3ClientBuilder;
@@ -22,9 +23,13 @@ public class S3Consumidor {
                 Constantes.Credenciales.SECRET_KEY
         );
 
+        // Para subir a Space de Digital Oscean se debe agregar el endPoint respectivo
+        AwsClientBuilder.EndpointConfiguration endpointConfiguration = new AwsClientBuilder
+                .EndpointConfiguration("https://nyc3.digitaloceanspaces.com", "nyc3");
+
         s3Client = AmazonS3ClientBuilder
                 .standard()
-                .withRegion(Regions.US_EAST_2)
+                .withEndpointConfiguration(endpointConfiguration)
                 .withCredentials(new AWSStaticCredentialsProvider(awsCredentials))
                 .build();
 

@@ -5,12 +5,12 @@ import com.amazonaws.regions.Regions;
 public class Constantes {
 
     interface Credenciales {
-        String ACCESS_KEY = "AKIASHGGAOCBKGIWC3HH";
-        String SECRET_KEY = "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";
+        String ACCESS_KEY = "FB3563e46trfgty67fyh45";
+        String SECRET_KEY = "HasdfgHFFGhsdfgHDFKHGHJHNFHKRJTHNJY";
     }
 
     interface Bucket {
-        String NOMBRE = "bucket-de-cristian";
+        String NOMBRE = "SPACIO";
     }
 
 }
